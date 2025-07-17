@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "declaration": true,
+    "composite": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@ui-library/design-tokens": ["packages/design-tokens/src"],
+      "@ui-library/ui-core": ["packages/ui-core/src"],
+      "@ui-library/ui-mobile": ["packages/ui-mobile/src"],
+      "@ui-library/ui-web": ["packages/ui-web/src"]
+    }
+  },
+  "references": [
+    { "path": "packages/design-tokens" },
+    { "path": "packages/ui-core" },
+    { "path": "packages/ui-mobile" },
+    { "path": "packages/ui-web" }
+  ]
+}

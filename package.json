@@ -1,0 +1,12 @@
+{
+  "name": "ui-library",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/design-tokens",
+    "packages/ui-core",
+    "packages/ui-mobile",
+    "packages/ui-web"
+  ],
+  "packageManager": "yarn@4.9.2"
+}

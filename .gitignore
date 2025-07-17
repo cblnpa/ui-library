@@ -1,0 +1,18 @@
+# Node & Yarn PnP
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/patches
+!.yarn/versions
+.pnp.cjs
+.pnp.loader.mjs
+yarn.lock
+
+# Build outputs
+/packages/*/dist/
+/packages/*/tsconfig.tsbuildinfo
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db

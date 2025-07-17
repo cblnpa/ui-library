@@ -1,0 +1,18 @@
+{
+  "name": "@ui-library/ui-web",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "@ui-library/ui-core": "workspace:*",
+    "styled-components": "6.1.19"
+  },
+  "devDependencies": {
+    "@types/styled-components": "*",
+    "typescript": "5.8.3"
+  }
+}
