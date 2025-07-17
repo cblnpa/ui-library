@@ -11,8 +11,6 @@
     "@ui-library/design-tokens": "workspace:*"
   },
   "devDependencies": {
-    "@types/react": "*",
-    "react": "*",
     "typescript": "5.8.3"
   }
 }

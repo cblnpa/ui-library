@@ -1,0 +1,17 @@
+build
+coverage
+dist
+.husky
+.vscode
+.yarn
+
+*.log
+*.tsbuildinfo
+
+packages/**/dist
+packages/**/build
+packages/**/coverage
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
